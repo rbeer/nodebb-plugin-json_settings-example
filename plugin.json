@@ -8,5 +8,13 @@
   "hooks": [
     { "hook": "filter:admin.header.build", "method": "addMenuItem" },
     { "hook": "static:app.load", "method": "init" }
-  ]
+  ],
+  "settingsPage": {
+    "name": "JSON Plugin Settings",
+    "renderMethod": "renderAdmin",
+    "middlewares": [
+      "admin.foo",
+      "twoFrogsOnABench"
+    ]
+  }
 }
