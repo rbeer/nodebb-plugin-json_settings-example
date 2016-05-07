@@ -17,9 +17,10 @@
 /* global ajaxify */
 $(window).on('action:ajaxify.contentLoaded', function(event) {
   var data = ajaxify.data;
+  var ul = $('#tests');
+  ul.children().remove();
 
   function addEntry(text, success) {
-    var ul = $('#tests');
     if (success !== void 0) {
       var icon = $('<i>').addClass('fa fa-' + (success ? 'check' : 'times'));
     }
