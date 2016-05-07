@@ -1,0 +1,26 @@
+{
+  "name": "nodebb-plugin-json_settings-example",
+  "version": "1.0.0",
+  "description": "Example for NodeBB/NodeBB/#4569",
+  "main": "lib/controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbeer/nodebb-plugin-json_settings-example.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin"
+  ],
+  "nbbpm": {
+    "compatibility": "^6.6.6"
+  },
+  "author": "Raphael Beer <raphael.beer@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rbeer/nodebb-plugin-json_settings-example/issues"
+  },
+  "homepage": "https://github.com/rbeer/nodebb-plugin-json_settings-example#readme"
+}

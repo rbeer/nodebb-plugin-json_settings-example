@@ -1,0 +1,12 @@
+{
+  "id": "nodebb-plugin-json_settings-example",
+  "name": "Seamless short URL plugin for NodeBB",
+  "description": "Example for NodeBB/NodeBB/#4569",
+  "url": "https://github.com/rbeer/nodebb-plugin-json_settings-example",
+  "library": "./lib/controller.js",
+  "templates": "public/templates",
+  "hooks": [
+    { "hook": "filter:admin.header.build", "method": "addMenuItem" },
+    { "hook": "static:app.load", "method": "init" }
+  ]
+}
